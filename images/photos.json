@@ -1,0 +1,49 @@
+{
+  "photos": [
+    {
+      "src": "akyo.jpg",
+      "title": "Akyo",
+      "description": "Stretnutie s Akyom"
+    },
+    {
+      "src": "dino.jpg",
+      "title": "Dino",
+      "description": "Fotka s Dinom"
+    },
+    {
+      "src": "listy.jpg",
+      "title": "Listy",
+      "description": "Ayka chyta listy"
+    },
+    {
+      "src": "kopec.jpg",
+      "title": "Kopec",
+      "description": "Horolezec Ayka"
+    },
+    {
+      "src": "mikro.jpg",
+      "title": "Mikro",
+      "description": "Mikro Aya"
+    },
+    {
+      "src": "palicka.jpg",
+      "title": "Palicka",
+      "description": "Najlepsia palicka"
+    },
+    {
+      "src": "rano.jpg",
+      "title": "Rano",
+      "description": "Mega fotka"
+    },
+    {
+      "src": "sneh.jpg",
+      "title": "Sneh",
+      "description": "Aya na snehu"
+    },
+    {
+      "src": "seno.jpg",
+      "title": "Seno",
+      "description": "Aya na sene"
+    }
+  ]
+}

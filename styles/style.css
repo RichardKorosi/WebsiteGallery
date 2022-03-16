@@ -1,0 +1,146 @@
+body {
+  display: grid;
+  margin: 0;
+  gap: 10px;
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+  color: #f7efe7;
+  background-color: #312c38;
+  font: 1em sans-serif;
+  min-width: 360px;
+}
+
+header {
+  text-align: center;
+  grid-area: header;
+  color: #f7efe7;
+  background-color: #e73c37;
+}
+
+section {
+  grid-area: main;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 370px;
+  max-width: 1920px;
+}
+
+#section_na_fotky {
+  display: inline-block;
+  max-width: 960px;
+}
+
+section img:hover {
+  transform: scale(1.05) rotate(2deg);
+}
+
+img {
+  transition: 0.3s;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+footer {
+  grid-area: footer;
+  padding: 15px;
+  color: white;
+  background-color: #e73c37;
+}
+
+.row {
+  display: flex;
+  font-weight: bold;
+  font-style: oblique;
+  margin-bottom: 5px;
+}
+
+.row > label {
+  min-width: 6rem;
+  text-align: left;
+}
+
+.row > input {
+  width: 300px;
+}
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  cursor: pointer;
+  max-width: 360px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #e73c37;
+  color: #f7efe7;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  padding: 6px 7px;
+  font-size: 16px;
+  width: 80px;
+  margin: 3px;
+}
+
+button:hover,
+button:active {
+  background-color: #f7efe7;
+  color: #e73c37;
+}
+
+.row {
+  align-items: center;
+  text-align: center;
+}
+
+#backdrop {
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+  position: fixed;
+  min-height: 130vh;
+  background-color: rgba(5, 5, 5, 0.7);
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#modal {
+  color: black;
+  margin-top: 20px;
+  background-color: lightgray;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 80vw;
+  max-height: 80vh;
+  text-align: center;
+  align-items: center;
+}
+
+.fullka {
+  max-width: 60vw;
+  max-height: 60vh;
+}
+
+#PAUSE {
+  display: none;
+}
+
+#img_wrap {
+  align-items: stretch;
+}
+
+@media screen and (max-height: 500px) {
+  #modal {
+    max-height: 100vh;
+  }
+}
+
+h6 {
+  display: none;
+}

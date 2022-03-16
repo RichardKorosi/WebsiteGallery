@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <title>Fotogaleria</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Fotogaléria Ayky</h1>
+    </header>
+    <section id="main">
+      <h6>.</h6>
+      <div class="row">
+        <div class="wrapper">
+          <label for="filter">Vyhľadaj:</label>
+          <input type="text" id="filter" />
+        </div>
+      </div>
+      <div class="row">
+        <section id="section_na_fotky"><h6>.</h6></section>
+      </div>
+      <script src="./scripts/index.js"></script>
+    </section>
+    <div id="backdrop">
+      <div id="modal">
+        <div class="row">
+          <button id="LEFT" type="button">&lt;</button>
+          <div class="row" id="img_wrap"></div>
+          <button id="RIGHT" type="button">></button>
+        </div>
+        <div class="row" id="img_wrap2"></div>
+        <div class="row" id="img_wrap3"></div>
+        <div class="row">
+          <div id="slideshow"></div>
+          <button id="close-modal" type="button" onclick="close_modal()">
+            Zavrieť
+          </button>
+          <button id="START" type="button">Start</button>
+        </div>
+      </div>
+    </div>
+    <footer id="footer">Richard Kőrösi, ©2021</footer>
+  </body>
+</html>
